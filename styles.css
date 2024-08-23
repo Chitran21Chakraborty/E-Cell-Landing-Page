@@ -1,0 +1,128 @@
+/* General styles */
+body {
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #f8f9fa; /* Light text color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Default font size for body */
+}
+
+/* Header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark header background */
+  color: #f8f9fa;
+  padding: 10px 20px; /* Adjust padding if needed */
+}
+
+.header-logo {
+  color: #f8f9fa; /* Light text color for logo */
+  text-decoration: none;
+  font-size: 2rem; /* Increase logo font size */
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem; /* Increase font size for navigation links */
+  color: #f8f9fa; /* Ensure link color matches header text color */
+}
+
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  font-size: 1.2rem; /* Increase font size for carousel captions */
+  color: #f8f9fa; /* Ensure caption color matches text color */
+}
+
+/* Heading for album and team members */
+#album, #members {
+  text-align: center;
+  color: #f8f9fa;
+  margin: 40px 0;
+}
+
+#album h1, #members h1 {
+  font-size: 2rem; /* Increase font size for headings */
+}
+
+/* About Us Section */
+#about-us {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+}
+
+#about-us h2 {
+  font-size: 2rem; /* Increase font size for section heading */
+  color: #f8f9fa; /* Ensure heading color matches text color */
+}
+
+#about-us p {
+  font-size: 1.2rem; /* Increase font size for paragraph text */
+  color: #f8f9fa; /* Ensure paragraph color matches text color */
+}
+
+/* Team Members Card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  background-color: #333; /* Dark background for cards */
+  color: #f8f9fa;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 1.5rem; /* Increase font size for card headings */
+}
+
+.card p {
+  font-size: 1.1rem; /* Increase font size for card text */
+}
+
+/* Virtual Reality Section */
+.virtual-reality {
+  padding: 40px 20px;
+}
+
+.virtual-reality h1 {
+  font-size: 2rem; /* Increase font size for section heading */
+}
+
+.virtual-reality p {
+  font-size: 1.2rem; /* Increase font size for paragraph text */
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark footer background */
+  color: #f8f9fa;
+  padding: 20px 0;
+  font-size: 1rem; /* Increase font size for footer text */
+}
+
+footer a {
+  color: #f8f9fa; /* Ensure link color matches footer text color */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
